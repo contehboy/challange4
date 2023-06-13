@@ -8,33 +8,38 @@ const inputEl = document.querySelector(".input");
 
 const questions = [
   {
-    name: "What is the purpose of if statement",
-    answers: [
-      "to run things again and again",
-      "to run things based on conditions",
-      "to do nothing",
-    ],
-    correctAnswer: "to run things based on conditions",
+    name: "Which of these is not a programming language",
+    answers: ["Ruby", "Java", "Python", "Banana"],
+    correctAnswer: "Banana",
   },
 
   {
-    name: "What is the purpose of for loop",
+    name: "What is computer coding",
     answers: [
-      "to run things again and again",
-      "to run things based on conditions",
-      "to do nothing",
+      "List of function",
+      "TV show",
+      "Telling the computer what to do",
+      "List of signs",
     ],
-    correctAnswer: "to run things again and again",
+    correctAnswer: "Telling the computer what to do",
   },
 
   {
-    name: "What is the purpose of arrays",
-    answers: [
-      "to run things again and again",
-      "to run things based on conditions",
-      "to store multiple elements",
-    ],
-    correctAnswer: "to store multiple elements",
+    name: "How many window does python use?",
+    answers: ["One", "Four", "Two", "Five"],
+    correctAnswer: "Two",
+  },
+
+  {
+    name: "What word describe the set of instructions that computer need to do work",
+    answers: ["Blueprint", "Synopsis", "tAgenda", "Program"],
+    correctAnswer: "Program",
+  },
+
+  {
+    name: "What word describe characters that canbe moved in a scratch program?",
+    answers: ["Imp", "Goblin", "Pixie", "Sprites"],
+    correctAnswer: "Sprites",
   },
 ];
 
