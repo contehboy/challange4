@@ -59,7 +59,7 @@ function showQuestion() {
     `;
   question.answers.forEach((answer) => {
     const button = document.createElement("button");
-    button.className = "btn btn-primary mb-2 d-block";
+    button.className = "btn btn-secondary mb-2 d-block";
     button.innerHTML = answer;
     questionEl.appendChild(button);
     button.onclick = function () {
